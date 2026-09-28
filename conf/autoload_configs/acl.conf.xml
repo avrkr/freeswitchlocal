@@ -16,7 +16,8 @@
 
     <!-- Event Socket (mod_event_socket) — allow dashboard / ESL clients on LAN -->
     <list name="esl_trusted" default="deny">
-      <node type="allow" cidr="127.0.0.1/32"/>
+      <node type="allow" cidr="127.0.0.0/8"/>
+      <node type="allow" cidr="::1/128"/>
       <node type="allow" cidr="192.168.43.0/24"/>
       <node type="allow" cidr="192.168.0.0/16"/>
       <node type="allow" cidr="10.0.0.0/8"/>

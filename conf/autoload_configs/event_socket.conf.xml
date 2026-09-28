@@ -4,7 +4,7 @@
     <param name="listen-ip" value="::"/>
     <param name="listen-port" value="8021"/>
     <param name="password" value="ClueCon"/>
-    <!-- Do not use loopback.auto if clients connect via LAN IP (e.g. 192.168.43.x) -->
+    <!-- Unset = loopback.auto only (127.0.0.1). Use esl_trusted for 192.168.43.x dashboard. -->
     <param name="apply-inbound-acl" value="esl_trusted"/>
     <!--<param name="stop-on-bind-error" value="true"/>-->
   </settings>
