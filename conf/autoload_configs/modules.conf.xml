@@ -25,6 +25,8 @@
     <!-- <load module="mod_cdr_sqlite"/> -->
     <!-- <load module="mod_event_multicast"/> -->
     <load module="mod_event_socket"/>
+    <!-- Live transcript audio stream to dashboard (uuid_audio_fork) -->
+    <!-- <load module="mod_audio_fork"/> -->
     <!-- <load module="mod_event_zmq"/> -->
     <!-- <load module="mod_zeroconf"/> -->
     <!-- <load module="mod_erlang_event"/> -->
